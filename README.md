@@ -6,6 +6,10 @@ whis repo contains the Arduino sketch that enables full control over the intrume
 if you with to use another board make shure that 5v can be handeled, all the logic on the instrument is 5V.
 
 supported commands:
+*IDN?    ->   standard ICSP command
+
+:FREQ?   ->   last valid reading or zero.
+
 :BAND?   ->   witch IF band the istrument is operating on.
 
 :RES?    ->   the current resolution setted on the counter, expressed and the esponent of 10, example of response = 2 => 10^2 Hz.
