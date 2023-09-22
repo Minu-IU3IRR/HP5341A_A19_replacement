@@ -6,7 +6,7 @@ whis repo contains the Arduino sketch that enables full control over the intrume
 if you with to use another board make shure that 5v can be handeled, all the logic on the instrument is 5V.
 
 -VERY IMPORTANT!
-if you supply power to the arduino with the shield make shure to disconnect the 5V positive wire from the USB port so you will not connect your computer's 5V bus to the insturment one, BAD things can occur. the ground wire must remain connected.
+if you supply power to the arduino with the shield make shure to disconnect the 5V positive wire from the USB port so you will not connect your computer's 5V bus to the insturment one, BAD things can occur. the ground wire must remain connected. to supply the arduino from your PC kust avoid soldering the +5V pins on the shiels and the voltages are separated, keep in mind that the instrument must supply the display if original, it can pull up to 1A that the arduno or PC can not provide.
 
 
 Feel free to reproduce all the content, just make shure to link this repo as the source!
