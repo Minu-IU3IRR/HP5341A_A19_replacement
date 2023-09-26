@@ -161,7 +161,7 @@ void loop() {
       display.light_giga();
     }
 
-    int decimal_position = 3 - (resolution % 3 == 0);
+    int decimal_position = 3 - (resolution % 3);
     display.decimal_position(decimal_position);
   }
 
